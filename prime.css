@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+body{
+    min-width: 1024px;
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: #112332;
+    display: flex;
+    position: fixed;
+    z-index: 500;
+
+}
+.logo{
+height: 35px;
+position: relative;
+margin-top: 22px;
+width: 112px;
+margin-left: 50px;
+
+
+
+    
+}
+nav ul{
+    text-align: center;
+    flex: 1;
+    margin-left: -1115px;
+    margin-top: 27px;
+
+}
+nav ul li{
+    display: inline;
+    color: rgba(242,244,246,.9);
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif !important;
+    padding: 10px;
+    font-size: 17px;
+    font-weight:lighter;
+}
+.cat{
+    font-size: 17px;
+    
+}
+nav ol button{
+    margin-left: -375px;
+    margin-top: 5px;
+    background-color: #0f79af;
+    border-radius: 3px;
+    height: 38px;
+    width: 120px;
+    border:none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif !important;
+
+
+
+}
+nav ol button:hover{
+    background-color: deepskyblue;
+}
+.try{
+    color: aliceblue;
+    font-weight: lighter;
+    margin-top: 7px;
+    font-size: 17px;
+    
+    
+
+}
+.gg-search{
+
+    color:rgba(242,244,246,.9);
+
+    }
+
+    .globe{
+        color: aliceblue;
+        height: 15px;
+
+       
+        
+      
+    } 
+    .search{
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .box{
+        margin-left: 30px;
+        margin-top: 17px;
+    }
+    .en{
+        font-size: large;
+        margin-left: 20px;
+        margin-top: 14px;
+        font-weight: lighter;
+    }
+    .user{
+        margin-left: 25px;
+        margin-top: 11px;
+
+    }
+    .user-size{
+        height: 22px;
+        width: 18px;
+
+    }
+        
+
+    
+    section{
+        background-size: cover;
+    }
+    .img1{
+        width: 100%;
+        height: 750px;
+        
+        
+    }
+    .img2{
+        width: 100%;
+        height: 550px;
+        margin-top: -200px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .box1text{
+        font-size: 45px ;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-left: 80px;
+        padding-top: 10px;
+        
+
+        
+    }
+    .box2text{
+        font-size: 45px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        margin-left: 84px;
+        margin-top: -30px;
+    }
+    .box3text{
+        margin-left: 86px;
+        font-size: 26px;
+    }
+
+    .box3{
+        margin-left: 100px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    .img3{
+        height: 180px;
+        width: 260px;
+        padding-left: 5px;
+        transition: 0.5s;
+
+    }
+    .img3:hover{
+        height: 185px;
+        width: 267px;
+
+        
+        
+
+    }
+    .en{
+        color: white;
+
+    }
+    ol{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .welcome-box{
+       position: absolute;
+       z-index: 1;
+       top: 125px;
+       left: 100px;
+    
+
+    }
+    .welcome{
+        font-size: 45px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        color: white;
+    }
+    .watch{
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+    .btn{
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        height: 50px;
+        width:  250px;
+        border-radius: 3px;
+        transition: 0.5s;
+        
+    }
+    .btn:hover{
+        background-color: deepskyblue;
+        color: white;
+        height: 52px;
+        width:  260px; 
+        border-radius: 3px;
+        
+        
+        
+    }
+    
+    .btntext{
+        font-size: 17px;
+    }
+    .movie-box{
+        position: absolute;
+        z-index: 1;
+        right: 100px;
+        top: 700px;
+
+    }
+    .movie{
+        font-size: 45px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        color: white;
+
+
+    }
+    .early{
+        color: white;
+        font-size: 25px;
+        font-weight: lighter;
+
+
+    }
+    .btn1{
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        height: 50px;
+        width:  250px;
+        border-radius: 3px;
+        transition: 0.5s;
+
+    }
+    .btn1:hover{
+        background-color: deepskyblue;
+        color: white;
+        height: 52px;
+        width:  260px; 
+        border-radius: 3px;
+
+    }
+    .btntext1{
+        font-size: 17px;
+
+    }
+    .remote{
+        width: 100%;
+        padding-top: 9px;
+        height: 600px;
+    }
+    .puff{
+        width: 100%;
+        margin-top: -5px;
+        height: 600px;
+
+    }
+    .remote-text{
+        position: absolute;
+        z-index: 1;
+        right: 45px;
+        top: 1947px
+    }
+     .remotetext1{
+        font-size: 45px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        color: white;
+        
+
+     }
+     .remotetext2{
+        color: white;
+        font-size: 25px;
+        font-weight: lighter; 
+
+     }
+     .btn2{
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        height: 50px;
+        width:  250px;
+        border-radius: 3px;
+        transition: 0.5s;
+     }
+     .btn2:hover{
+        background-color: deepskyblue;
+        color: white;
+        height: 52px;
+        width:  260px; 
+        border-radius: 3px;
+
+    }
+    .btntext2{
+        font-size: 17px;
+    }
+    .puff-text{
+        position: absolute;
+        z-index: 1;
+        right: 855px;
+        top: 2567px;
+    }
+     .pufftext1{
+        font-size: 45px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        color: white;
+        
+
+     }
+     .pufftext2{
+        color: white;
+        font-size: 25px;
+        font-weight: lighter; 
+
+     }
+     .btn3{
+        background-color: #0f79af;
+        color: white;
+        border: none;
+        height: 50px;
+        width:  250px;
+        border-radius: 3px;
+        transition: 0.5s;
+     }
+     .btn3:hover{
+        background-color: deepskyblue;
+        color: white;
+        height: 52px;
+        width:  260px; 
+        border-radius: 3px;
+
+    }
+    .btntext3{
+        font-size: 17px;
+    }
+    footer{
+        width: 100%;
+        background-color:#0F1111;
+        height: 150px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .logo2{
+        height: 75px;
+        width: 140px;
+
+    }
+    .ftr{
+        color:#0f79af;
+        margin-top: -25px;
+        font-weight: lighter;
+        font-size: large;
+    }
+    .ftr1{
+        color: white;
+        margin-top: -30px;
+        font-weight: lighter;
+        font-size:medium ;
+    }
+
+    
+
+
+
+
+    
+    
+
+
+        
+    
+    
+
+
+
